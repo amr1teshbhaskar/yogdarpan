@@ -3332,7 +3332,7 @@ button:disabled,
     -ms-transition: -ms-transform 0.5s ease;
     transition: transform 0.5s ease;
     -webkit-overflow-scrolling: touch;
-    background: #21b2a6;
+    background: #1d242a;
     color: #ffffff;
     height: 100%;
     max-width: 80%;
@@ -3982,11 +3982,24 @@ body.is-mobile.landing #footer {
 /* contact-info */
 .contact-info {
     display: block;
-    padding: 0em 0em 1em 2em;
+    padding: 0em 0em 1em 3.5em;
 }
 
 .contact-info-head {
     display: block;
-    padding: 1em 1em 0 0;
+    padding: 1em 1em 0 2em;
     font-weight: 700;
+}
+
+.contact-info-last {
+    display: block;
+    padding: 0em 0em 3em 3.5em;
+}
+
+.contact-block {
+    display: inline-list-item;
+}
+
+.blogs-div{
+    background-color: #1d242a;
 }
