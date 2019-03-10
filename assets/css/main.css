@@ -3976,3 +3976,14 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+/* contact-info */
+	.contact-info {
+		display: block;
+		padding: 0em 0em 1em 2em;
+	}
+
+.contact-info-head {
+	display: block;
+	padding: 1em 1em 0 0;
+	font-weight: 700;
+}
