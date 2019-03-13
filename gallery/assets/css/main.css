@@ -1037,7 +1037,6 @@ body.is-preload-1 #main {
 #thumbnails article .thumbnail img {
     display: block;
     width: 100%;
-    height: auto;
 }
 
 #thumbnails article .thumbnail:before {
@@ -1270,6 +1269,7 @@ body.is-preload-1 #main {
     height: 100%;
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: 50% 50%;
     opacity: 0;
 }
 
